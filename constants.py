@@ -5,6 +5,7 @@ URL = "https://www.lambdatest.com/selenium-playground/table-sort-search-demo"
 URL_NEVIGATION_MSG = "nevigated to url successfully"
 SEARCHBOX_LOCATED_MSG = "searchbox is located"
 ASSERT_SECCESSFUL = "showing 5 entries out of 24"
+ASSERT_UNSUCCESSFUL = "X-  not showing 5 entries out of 24  -X"
 
 # searched items
 SEARCH_ITEM = "New York"

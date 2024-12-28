@@ -21,4 +21,5 @@ class Entries:
 
     def entries(self):
         entries = self.driver.find_element("xpath", ElementLocators.entries_result).text
-        assert entries == constants.ENTRY_ASSERT, f"{constants.ASSERT_SECCESSFUL}"
+        assert entries == constants.ENTRY_ASSERT, f"{constants.ASSERT_UNSUCCESSFUL}"
+        print(constants.ASSERT_SECCESSFUL)
