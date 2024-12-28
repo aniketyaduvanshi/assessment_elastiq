@@ -1,7 +1,7 @@
 # elastiq_assessment
 
 # Overview
-This project automates three tests related to the Selenium Playground Table . 
+This project automates a test related to the Selenium Playground Table . 
 It validates that when searching for "New York" in the search box, the filtered results and total table entries match the expected counts.
 
 # Prerequisites
