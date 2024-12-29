@@ -16,3 +16,6 @@ ENTRY_ASSERT = "Showing 1 to 5 of 5 entries (filtered from 24 total entries)"
 # timeouts
 EXPLICIT_WAIT = 10
 SLEEP = 1
+
+# paths
+EXECUTABLE_PATH = ".\\assets\\chromedriver.exe"

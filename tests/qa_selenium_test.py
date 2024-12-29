@@ -1,5 +1,5 @@
 import pytest
-import pages
+from pages import entries_page
 from utilities.setup import setup_and_teardown
 
 
@@ -7,7 +7,7 @@ from utilities.setup import setup_and_teardown
 class Test_Page:
 
     def test_url(self):
-        pg = pages.entries_page.Entries(self.driver)
+        pg = entries_page.Entries(self.driver)
         pg.url()
         pg.interaction()
         pg.entries()

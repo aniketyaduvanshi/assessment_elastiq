@@ -17,8 +17,8 @@ It validates that when searching for "New York" in the search box, the filtered 
 # Running the Test
 1.	Open a terminal and navigate to the project directory.
 2.	Execute the test script with Pytest:
-     pytest -rA --html=html_report qa_selenium_test.py
-3.	Observe the test results in the terminal. If the tests passes, it confirms the search functionality is working as expected.
+     pytest -vrA --html=html_report tests\qa_selenium_test.py
+3.	Observe the test results in the terminal. If the test passes, it confirms the search functionality is working as expected.
 
 # Test Workflow
 1.	The test navigates to the table-sort-search-demo page.

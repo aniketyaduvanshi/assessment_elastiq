@@ -1,7 +1,7 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-import constants
-from locators import ElementLocators
+from library import constants
+from library.locators import ElementLocators
 
 
 class Entries:
@@ -15,7 +15,8 @@ class Entries:
 
     def interaction(self):
         wait = WebDriverWait(driver=self.driver, timeout=constants.EXPLICIT_WAIT)
-        textbox = wait.until(expected_conditions.visibility_of(self.driver.find_element("xpath", ElementLocators.search_box)))
+        textbox = wait.until(expected_conditions.visibility_of(
+            self.driver.find_element("xpath", ElementLocators.search_box)))
         print(constants.SEARCHBOX_LOCATED_MSG)
         textbox.send_keys(constants.SEARCH_ITEM)
 
